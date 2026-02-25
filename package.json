@@ -1,0 +1,21 @@
+{
+  "name": "go-skills-collection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Go development skills for Claude Code agents",
+  "type": "module",
+  "bin": "./scripts/cli.ts",
+  "scripts": {
+    "validate": "node scripts/validate-skills.js",
+    "format:check": "node scripts/check-format.js",
+    "check:links": "node scripts/check-links.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.11.0",
+    "typescript": "^5.9.3",
+    "yaml": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
