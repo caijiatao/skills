@@ -30,6 +30,11 @@ pnpm-debug.log*
 # Claude plans
 .claude/
 
+# Skills CLI generated files
+.agents/
+.kilocode/
+skills-lock.json
+
 # Test coverage
 coverage/
 *.out

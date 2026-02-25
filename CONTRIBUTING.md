@@ -7,12 +7,12 @@ Thank you for your interest in contributing to the Go Skills collection! This do
 ### 1. Create the Skill Directory
 
 ```bash
-mkdir your-skill-name
+mkdir skills/your-skill-name
 ```
 
 ### 2. Create SKILL.md
 
-Each skill must have a `SKILL.md` file (note the capitalization) with proper frontmatter:
+Each skill must have a `SKILL.md` file in the skill directory (note the capitalization) with proper frontmatter:
 
 ```yaml
 ---
@@ -33,7 +33,7 @@ metadata:
 Detailed content should be organized in the `references/` subdirectory:
 
 ```bash
-mkdir your-skill-name/references
+mkdir skills/your-skill-name/references
 ```
 
 #### Reference File Guidelines
@@ -56,7 +56,7 @@ mkdir your-skill-name/references
 
 ### 4. Create GENERATION.md
 
-Track the origin of your skill:
+Track the origin of your skill (create in the skill directory):
 
 ```markdown
 # Generation Info
@@ -70,7 +70,7 @@ Track the origin of your skill:
 
 ### 5. Create instructions/ File
 
-Add an instruction file in `instructions/your-skill-name.md`:
+Add an instruction file in `instructions/your-skill-name.md` (at repository root):
 
 ```markdown
 # Your Skill Name - Skill Instructions

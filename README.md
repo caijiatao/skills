@@ -10,10 +10,10 @@
 
 | 技能 | 描述 | 语言 | 分类 |
 |------|------|------|------|
-| [effective-go](./effective-go/) | 应用 Go 最佳实践、惯用模式和约定 | en | core |
-| [go-concurrency-patterns](./go-concurrency-patterns/) | 掌握 Go 并发：goroutines、channels、同步原语和 context | en | concurrency |
-| [golang-code-review](./golang-code-review/) | 基于《Golang 工匠》的 Go 代码综合审查器 | zh | review |
-| [golang-testing](./golang-testing/) | Go 测试模式和最佳实践 | zh | testing |
+| [effective-go](./skills/effective-go/) | 应用 Go 最佳实践、惯用模式和约定 | en | core |
+| [go-concurrency-patterns](./skills/go-concurrency-patterns/) | 掌握 Go 并发：goroutines、channels、同步原语和 context | en | concurrency |
+| [golang-code-review](./skills/golang-code-review/) | 基于《Golang 工匠》的 Go 代码综合审查器 | zh | review |
+| [golang-testing](./skills/golang-testing/) | Go 测试模式和最佳实践 | zh | testing |
 
 ## 安装
 
